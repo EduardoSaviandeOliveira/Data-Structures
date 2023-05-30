@@ -44,10 +44,6 @@ struct Binary {
         this->pre = llk::List<int>();
         this->post = llk::List<int>();
     }
-
-    
-
-
 };
 }
 
