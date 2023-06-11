@@ -31,3 +31,5 @@ make clean
 ```bash
 clear && make all && ./exec && make clean
 ```
+
+## Rotação simples ou dupla pela esquerda ou direita

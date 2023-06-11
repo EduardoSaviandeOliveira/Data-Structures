@@ -3,7 +3,7 @@ CFLAGS := -Os -pipe -Wall -Wextra -fPIC -I. -Wno-unused-function $(CFLAGS)
 LDFLAGS := $(LDFLAGS) -lstdc++ -lm -L.
 EXEC = exec
 
-SRCS = main.cpp List/Linked/linked.cpp Tree/Binary/binary.cpp Tree/AVL/avl.cpp
+SRCS = main.cpp List/Linked/linked.cpp Tree/Binary/binary.cpp Tree/AVL/avl.cpp Tree/Huffman/huffman.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(EXEC)
