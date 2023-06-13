@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-namespace hfm {
+namespace thfm {
 
 }
 
